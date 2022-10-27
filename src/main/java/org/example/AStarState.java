@@ -55,19 +55,6 @@ public class AStarState
         return wp;
     }
 
-//    public Waypoint getMinOpenWaypoint() {
-//        if (openWaypoints.isEmpty()) return null;
-//        Waypoint minTotalCostWaypoint = openWaypoints.values().stream().findFirst().get();
-//        float minTotalCost = minTotalCostWaypoint.getTotalCost();
-//        for (Map.Entry<Location, Waypoint> i : openWaypoints.entrySet()) {
-//            if(i.getValue().getTotalCost() < minTotalCost) {
-//                minTotalCost = i.getValue().getTotalCost();
-//                minTotalCostWaypoint = i.getValue();
-//            }
-//        }
-//        return minTotalCostWaypoint;
-//    }
-
     /**
      * This method adds a waypoint to (or potentially updates a waypoint already
      * in) the "open waypoints" collection.  If there is not already an open
